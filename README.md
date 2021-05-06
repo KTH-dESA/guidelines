@@ -1,5 +1,23 @@
 # KTH-dES Scripts and Software Curation Guidelines
 
+## How to publish your code online
+
+Create a new public repository under your own Github user account or KTH-dESA.
+
+Create a local repository (`git init`) for the script or software.
+As a minimum, the repository should include:
+
+- an appropriate open-source license
+- a readme (see below)
+- the source code
+- a description of the software dependencies - techniques different depending on programming language
+
+A software repository should NOT contain:
+
+- large data files
+- binary files (e.g. .exe, .pdf)
+- any files which are produced as an output from running the script
+
 ## How to make a script citable
 
 An overview:
@@ -19,7 +37,23 @@ These "docstrings" can be automatically extracted by Sphinx and rendered as web 
 
 A `README.txt` or `README.md` file should always be written as the most fundamental documentation.
 
-## Welcome to GitHub Pages
+The contents depends on whether there is separate documentation.
+In all cases, the readme should explain to the reader how to install and run the software.
+
+- If there is no further documentation (e.g. the repository only contains a script), then the readme should
+provide all documenation required for a user to use the script correctly.
+- If there is separate documentation, then the readme should only contain fundamental installation aspects.
+
+The contents of the readme can also contain:
+
+- funding acknowledgement
+- how to cite the code
+- links to related or similar scripts or software
+- information on how to contribute to the code (submit issue requests, pull requests etc.)
+- some notes on future developments (what is in scope, what is not)
+
+
+## How to contribute to these guidelines
 
 You can use the [editor on GitHub](https://github.com/KTH-dESA/guidelines/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
