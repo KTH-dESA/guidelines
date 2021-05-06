@@ -1,5 +1,24 @@
 # KTH-dES Scripts and Software Curation Guidelines
 
+## How to make a script citable
+
+An overview:
+
+1. Create a new public repository under your own Github user account or KTH-dESA for the script and upload it with a permission open-source license
+2. Log in to Zenodo using your Github account
+3. Sync the repository on Zenodo
+4. Create a Github release
+5. You now have an software archive on Zenodo with a citable DOI for the release
+
+See the Github documentation on [making you code citable](https://guides.github.com/activities/citable-code/).
+
+## How to document your code
+
+If you are working with Python, there are powerful approaches that enable documentation to be embedded in your code.
+These "docstrings" can be automatically extracted by Sphinx and rendered as web documentation or compiled into a PDF.
+
+A `README.txt` or `README.md` file should always be written as the most fundamental documentation.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/KTH-dESA/guidelines/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
